@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+/*  ===== Some Global CSS ===== */
+/* Half Width */
+.w-50 {
+  width: 50%;
+}
+.w-40 {
+  width: 40%;
+}
+.w-80 {
+  width: 80%;
+}
+/* Flex */
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+/* padding-left */
+.pl-5 {
+  padding-left: 5%;
+}
+.ml-5 {
+  margin-left: 5%;
+}
+.mr-5 {
+  margin-right: 5%;
+}
+section {
+  padding: 100px 0;
+}
+img {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+/* ====== Regular CSS ====== */
+
+/*  Banner Section */
+
+h1 {
+  font-size: 50px;
+  margin: 10px 0;
+  padding: 0;
+  font-weight: 600;
+}
+h2 {
+  font-size: 40px;
+  font-weight: 500;
+}
+h1 span {
+  color: #ed155d;
+}
+.banner-section {
+  background-image: url(images/bg.png);
+  background-size: 58%;
+  background-repeat: no-repeat;
+}
+.btn {
+  display: inline-block;
+  background-image: linear-gradient(
+    111.2deg,
+    rgba(232, 5, 5, 0.68) 1.7%,
+    rgba(245, 49, 191, 0.95) 98.7%
+  );
+  padding: 10px 40px;
+  text-decoration: none;
+  color: #fff;
+  margin: 15px 0;
+  text-transform: uppercase;
+  font-weight: 500;
+  border-radius: 35px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  -ms-border-radius: 35px;
+  -o-border-radius: 35px;
+}
+
+/* Experience Section */
+.experience-area {
+  align-items: stretch;
+}
+.experience-item {
+  padding: 30px;
+  box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.5);
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  border-left: 8px solid #ed155d;
+  border-image: linear-gradient(
+    111.2deg,
+    rgba(232, 5, 5, 0.68) 1.7%,
+    rgba(245, 49, 191, 0.95) 98.7%
+  );
+  border-image-slice: 1;
+}
+.experience-item h4 {
+  color: #ed155d;
+  font-size: 19px;
+}
+
+/* Footer */
+footer p {
+  font-size: 16px;
+  color: #696969;
+  text-align: center;
+  margin: 15px 0;
+}
