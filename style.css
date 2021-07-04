@@ -56,7 +56,7 @@ h1 span {
 }
 .banner-section {
   background-image: url(images/bg.png);
-  background-size: 58%;
+  background-size: 55%;
   background-repeat: no-repeat;
 }
 .btn {
@@ -91,11 +91,11 @@ h1 span {
   -moz-border-radius: 25px;
   -ms-border-radius: 25px;
   -o-border-radius: 25px;
-  border-left: 8px solid #ed155d;
+  border-left: 8px solid;
   border-image: linear-gradient(
     111.2deg,
-    rgba(232, 5, 5, 0.68) 1.7%,
-    rgba(245, 49, 191, 0.95) 98.7%
+    rgba(232, 5, 5, 0.85) 1.7%,
+    rgba(245, 49, 191, 0.75) 98.7%
   );
   border-image-slice: 1;
 }
