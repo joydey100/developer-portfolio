@@ -79,9 +79,22 @@ h1 span {
   -o-border-radius: 35px;
 }
 
+/* about section */
+.about-section {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 100px;
+}
+
 /* Experience Section */
 .experience-area {
   align-items: stretch;
+}
+.experience-section {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left 67%;
 }
 .experience-item {
   padding: 30px;
