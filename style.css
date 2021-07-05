@@ -50,6 +50,7 @@ h1 {
 h2 {
   font-size: 40px;
   font-weight: 500;
+  margin: 0 0 18px;
 }
 h1 span {
   color: #ed155d;
@@ -103,6 +104,9 @@ h1 span {
   background-image: url(images/exp-bg.png);
   background-repeat: no-repeat;
   background-position: left 67%;
+}
+.experience-title {
+  margin-bottom: 28px;
 }
 .experience-item {
   padding: 30px;
